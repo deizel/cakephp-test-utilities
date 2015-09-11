@@ -18,7 +18,7 @@ trait AccessibilityHelperTrait {
 /**
  * Default target to use for reflection.
  *
- * @var Object|string
+ * @var object|string
  */
 	public $defaultReflectionTarget = null;
 
@@ -57,7 +57,7 @@ trait AccessibilityHelperTrait {
 /**
  * Map an instance of an object to its class name.
  *
- * @param Object $instance
+ * @param object $instance
  * @return void
  */
 	public function setReflectionClassInstance($instance, $class = null) {
@@ -69,7 +69,7 @@ trait AccessibilityHelperTrait {
  * Get working instance of "$class".
  *
  * @param string $class
- * @return Object
+ * @return object
  * @throws \Exception
  */
 	public function getReflectionInstance($class) {
